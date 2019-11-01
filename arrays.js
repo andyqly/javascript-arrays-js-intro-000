@@ -11,6 +11,6 @@ return array
 }
 
 function addElementToEndOfArray(array, element){
-array.push(element)
+[...array, element]
 return array
 }
